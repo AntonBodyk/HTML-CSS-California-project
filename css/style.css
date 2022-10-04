@@ -9,6 +9,7 @@
 /*-----------------------HEADER-------------------*/
 .header-container{
     display: flex;
+    padding-left: 15px;
 }
 
 .header-logo{
@@ -37,15 +38,23 @@
 .header-icons{
     padding: 31px 0 0 280px;
 }
-.header-icons a{
-    margin-left: 14px;
+.header-icons a.fa-solid{
+    font-size: 25px;
     text-decoration: none;
-    color: #000000;
+    margin-left: 20px;
+    color:black;
 }
 /*--------------------------MAIN--------------------------*/
 .my-carusel{
     width: 1330px;
-    padding: 50px 0 0 73px;
+    padding: 50px 0 0 80px;
+    
+}
+.my-carusel-wrapper{
+    width: 1300px;
+}
+.my-slide img{
+    width: 1300px;
 }
 .main-products{
     padding-top: 75px;
@@ -65,7 +74,7 @@
     color: #000000;
 }
 .main-products-items{
-    padding: 56px 0 0 50px;
+    padding: 56px 0 0 90px;
     display: flex;
     width: 1294px;
 }
@@ -288,7 +297,7 @@
 }
 .main-best-items{
     display: flex;
-    padding: 56px 0 0 73px;
+    padding: 56px 0 0 87px;
 }
 .best-item-one{
     width: 413px;
